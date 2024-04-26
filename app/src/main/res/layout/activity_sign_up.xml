@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp">
+    <ImageView
+        android:id="@+id/img_AppLogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="-3dp"
+        android:src="@drawable/timesense_logo" />
+
+    <TextView
+        android:id="@+id/tvCreateAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginTop="180dp"
+        android:text="Create your account"
+        android:textColor="@color/colourPrimary"
+        android:gravity="center"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:paddingLeft="15dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginTop="20dp"
+        android:hint=" Name"
+        android:background="@drawable/edt_background"
+        android:layout_below="@id/tvCreateAccount"/>
+
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:paddingLeft="15dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="55dp"
+        android:layout_below="@id/etName"
+        android:layout_marginTop="20dp"
+        android:hint=" Email address"
+        android:background="@drawable/edt_background"
+        />
+
+    <EditText
+        android:id="@+id/etCompanyName"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:paddingLeft="15dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="55dp"
+        android:layout_below="@id/etEmail"
+        android:layout_marginTop="20dp"
+        android:hint=" Company name"
+        android:background="@drawable/edt_background"/>
+
+
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:paddingLeft="15dp"
+        android:layout_below="@id/etCompanyName"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="55dp"
+        android:background="@drawable/edt_background"
+        android:hint=" Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="292dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Register"
+        android:background="@drawable/round_blue_shape"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>

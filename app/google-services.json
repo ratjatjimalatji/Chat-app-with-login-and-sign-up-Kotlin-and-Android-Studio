@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "772620407428",
+    "project_id": "ratjatjiopsc2",
+    "storage_bucket": "ratjatjiopsc2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772620407428:android:cd5adee056cf97a48ea8d1",
+        "android_client_info": {
+          "package_name": "com.ratjatji.ratjatjiopsc2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeaTRiji8v7MERJfYX7I416bG-3vqekSg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
